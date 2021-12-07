@@ -43,8 +43,8 @@
 
 		onAdd: function(map) {
 			var collapsible = this.options.collapsible;
-
-			collapsible = collapsible || (collapsible === undefined && map.getSize().x <= 640);
+			// collapsible = collapsible || (collapsible === undefined && map.getSize().x <= 640);
+			collapsible = collapsible || (collapsible === true);
 
 			this._container = L.DomUtil.create('div', 'leaflet-routing-container leaflet-bar ' +
 				(!this.options.show ? 'leaflet-routing-container-hide ' : '') +
