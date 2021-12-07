@@ -222,13 +222,13 @@
 }
 
 .leaflet-routing-container-hide .leaflet-routing-collapse-btn {
-    position: relative;
-    left: 4px;
-    top: 4px;
+    position: static;
     display: block;
-    width: 26px;
-    height: 23px;
+    width: 100%;
+    height: 100%;
     background-image: url('routing-icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .leaflet-routing-container-hide .leaflet-routing-collapse-btn:after {
@@ -236,7 +236,7 @@
 }
 
 .leaflet-top .leaflet-routing-container.leaflet-routing-container-hide {
-    margin-top: 10px !important;
+    margin-top: 5px !important;
 }
 .leaflet-right .leaflet-routing-container.leaflet-routing-container-hide {
     margin-right: 10px !important;
