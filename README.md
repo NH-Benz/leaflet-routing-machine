@@ -4,7 +4,8 @@ fix collapse button
 fix css 
   * .leaflet-top .leaflet-routing-container.leaflet-routing-container-hide
   * .leaflet-routing-container-hide .leaflet-routing-collapse-btn
-  * @media only screen and (max-width: 640px) { .leaflet-routing-container 
+  * @media only screen and (max-width: 640px) { .leaflet-routing-container
+  * .leaflet-routing-container, .leaflet-routing-error 
 
 [Leaflet Routing Machine]((https://www.liedman.net/leaflet-routing-machine/)) [![NPM version](https://img.shields.io/npm/v/leaflet-routing-machine.svg)](https://www.npmjs.com/package/leaflet-routing-machine) ![Leaflet 1.0 compatible!](https://img.shields.io/badge/Leaflet%201.0-%E2%9C%93-1EB300.svg?style=flat) [![Join the chat at https://gitter.im/leaflet-routing-machine/Lobby](https://badges.gitter.im/leaflet-routing-machine/Lobby.svg)](https://gitter.im/leaflet-routing-machine/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 =======================
