@@ -12,11 +12,13 @@
 
 .leaflet-routing-container h2 {
     font-size: 14px;
+    color: #3071e8;
 }
 
 .leaflet-routing-container h3 {
     font-size: 12px;
     font-weight: normal;
+    color: #3071e8;
 }
 
 .leaflet-routing-collapsible .leaflet-routing-geocoders {
@@ -50,6 +52,7 @@
 
 .leaflet-routing-alt table {
     border-collapse: collapse;
+    color: #3071e8;
 }
 
 .leaflet-routing-alt tr:hover {
