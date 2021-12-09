@@ -22,13 +22,11 @@
 }
 
 .leaflet-routing-collapsible .leaflet-routing-geocoders {
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
 .leaflet-routing-alt, .leaflet-routing-geocoders, .leaflet-routing-error {
-    padding: 6px 6px 0px 6px;
-    margin-top: 2px;
-    margin-bottom: 6px;
+    padding: 6px;
     max-height: 320px;
     overflow-y: auto;
     transition: all 0.2s ease;
@@ -107,18 +105,27 @@
 .leaflet-routing-geocoders input {
     width: 303px;
     width: calc(100% - 4px);
-    line-height: 1.67;
+    line-height: 2; 
     border: 1px solid #ccc;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left-color: #3071e8;
+    border-left-width: 4px;
+    box-sizing: border-box;
 }
 
 .leaflet-routing-geocoders button {
-    font: bold 14px 'Lucida Console', Monaco, monospace;
-    border: 1px solid #ccc;
+    position: absolute;
+    top: 42px;
+    right: 0px;
+    font-size: 30px;
+    border: 0px;
+    background-color: transparent;
+    color: #3071e8;
     border-radius: 4px;
-    background-color: white;
-    margin: 0;
-    margin-right: 4px;
-    float: right;
+    
+    
     cursor: pointer;
     transition: background-color 0.2s ease;
 }
@@ -184,7 +191,7 @@
     height: 1px;
     z-index: 1;
     right: 1px;
-    top: 4px;
+    top: 2px;
     bottom: 0;
     margin: auto;
     padding: 2px;
@@ -194,7 +201,7 @@
     text-align: center;
     cursor: pointer;
     color: #ccc;
-    background: white;
+    background-color: transparent;
     padding-bottom: 16px;
     margin-top: -16px;
     padding-right: 4px;
@@ -211,8 +218,8 @@
 
 .leaflet-routing-collapse-btn {
     position: absolute;
-    top: 30px;
-    right: 6px;
+    top: 7px;
+    right: 9px;
     font-size: 24px;
     color: #3071e8;
     font-weight: bold;
